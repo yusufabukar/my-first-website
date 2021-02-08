@@ -1,0 +1,61 @@
+/*selector {
+  property:value;
+}*/
+
+* {
+  text-align:right;
+}
+
+body {
+  background-image:url(ice.jpg);
+  background-size:cover;
+}
+
+h2, p {
+  color:#AA4139;
+  text-align:center;
+  border: 5px solid rgba(255,176,170,0.5);
+}
+
+img {
+  float:right;
+}
+
+footer {
+  clear:both;
+  text-align:center;
+}
+
+p {
+  line-height:40px;
+  font-style:italic;
+  font-weight:bold;
+  font-size:170%;
+  font-family:Caveat,cursive;
+}
+
+/* 'Cascading' as the styles are cascaded down the stylesheet. The last one is selected */
+p {
+  color:green;
+}
+
+li {
+  list-style:armenian;
+  display:inline-block;
+}
+
+.webtext:last-child {
+  border: 5px dashed green;
+}
+
+.webtext2 {
+  color:purple;
+}
+
+#block1 {
+  background-color:rgba(0,0,255,0.2);
+}
+
+#block2 {
+  background:rgba(0,255,0,0.2);
+}
